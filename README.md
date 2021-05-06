@@ -1,20 +1,21 @@
 # Capstone Project 
 
-Objective: Build an application which sends an "Award of excellence" certificate with attachment and appropriate content. 
-Prerequisites: We have files:
+**Objective:** Build an application which sends an "Award of excellence" certificate with attachment and appropriate content. 
+
+**Prerequisites:** We have files:
 1. A csv file containing name, email, score
 2. A txt file where email content is written
 3. A jpg file containing image of empty certificate.
 
-Steps to solve this:
-1. Data Processing:
+### Steps to solve this:
+#### 1. Data Processing:
 1. Read a csv file
 2. Extract single columns in lists
 3. For column Name, processing such as check for valid name, conversion to proper are done.
 4. For column email, regex check was done.
 5. For column score, validity checks such as only positive numbers should be allowed.
 
-2. Image Processing:
+#### 2. Image Processing:
 1. Read a jpg image
 2. Identify the coordinates to write name, course name, date and signature are done.
 3. Writing on the image.
@@ -22,13 +23,14 @@ Steps to solve this:
 5. All certificates are custom as per the name and stored in a folder.
 6. If certificates were already present, files were not created
 
-3. Send email:
+#### 3. Send email:
 1. check connection. If connection is there, then only send the email
 2. Create email content, subject, body. 
 3. Connect to the server and send email.
 
-We have created a package for this purpose, AwardCertificate and it has following files:
-1.__init__.py file.
+#### Package:
+We have created a package for this purpose, Award Certificate and it has following files:
+1. __ init__.py file.
 2. data_processing.py module.
 3. image_processing.py module.
 4. send_email.py module.
@@ -112,4 +114,3 @@ test_valid_score():
 
 # Check check_valid_score. If score is negative, function will return invalid score, otherwise it will return the score.
 test_valid_score_positive():
-
