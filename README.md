@@ -35,9 +35,9 @@ We have created a package for this purpose, Award Certificate and it has followi
 3. image_processing.py module.
 4. send_email.py module.
 
-data_processing.py module has following functions:
+#### data_processing.py module has following functions:
 csv_to_column: Reads csv file and converts into a list based on column name.
- Input: 
+    Input: 
         filename: Name of the file to be read and processed 
         colname: column name
         delimiter: file delimiter. Mostly ","
@@ -65,7 +65,7 @@ check_valid_score: checks if score is a number or not.
         score if valid otherwise "Invalid Score"
 
 
-image_processing.py module has following functions:
+#### image_processing.py module has following functions:
 create_certi: 
     Input:
         read_path: path from where image needs to be read
@@ -89,7 +89,7 @@ send_email: this function sends email to desired email address
         receiver_email: receiver's email address
         score: receiver's score in the course.
 
-test.py file: test cases
+#### test.py file: test cases
 
 # tests if readmefile exists or not
 test_readme_exists():
