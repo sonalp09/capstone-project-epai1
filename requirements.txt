@@ -1,0 +1,12 @@
+datetime == 4.3
+requests
+termcolor == 1.1.0
+functools
+email
+smtplib
+ssl
+opencv == 1.20.2
+cv2
+csv
+os.path
+re

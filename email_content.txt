@@ -1,0 +1,8 @@
+Dear {0},
+
+Congratulations! You have cleared the "Python 101" with {1} marks out of 1000 marks!
+
+We are excited to share the attached Award of Excellence for your performance!
+
+Regards, 
+Rohan
